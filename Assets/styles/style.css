@@ -1,0 +1,78 @@
+/*Background*/
+body{
+  background-color: #f5f8ff;
+}
+
+
+/*Hero--Section*/
+.hero {
+  background: url('/Assets/Hero-bg.png') no-repeat center center;
+  background-size: cover;
+  padding: 80px 40px;
+  text-align: center;
+  color: #1f1f1f;
+  position: relative;
+  min-height: 90vh;
+}
+
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  
+  width: 150px;
+  height: 150px;
+}
+
+.signup-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  
+}
+.signup-btn:hover{
+  background-color: transparent;
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+  box-shadow: 0 0 10px #4f46e5;
+  transition: all 0.3s ease-in-out;
+
+
+}
+.hero-content {
+  margin-top: 100px;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #1e1e2f;
+  margin-bottom: 30px;
+}
+
+.focus-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 14px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.focus-btn:hover {
+  background-color: transparent;
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+  box-shadow: 0 0 10px #4f46e5;
+  transition: all 0.3s ease-in-out;
+}
